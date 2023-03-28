@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "goit-python-web-module5-hw"
+version = "0.1.0"
+description = ""
+authors = ["dzvenyslavavovk <dzvinavovk.25@gmail.com>"]
+readme = "README.md"
+packages = [{include = "goit_python_web_module5_hw"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.8.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
